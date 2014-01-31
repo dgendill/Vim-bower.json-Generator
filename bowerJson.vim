@@ -33,8 +33,3 @@ function! BowerJson()
   normal dd
 
 endfunction
-
-if !exists("s:autocommands_loaded")
-  let s:autocommands_loaded = 1
-  autocmd BufNewFile package.json :call CommonJSPackageJsonTemplate()
-endif
