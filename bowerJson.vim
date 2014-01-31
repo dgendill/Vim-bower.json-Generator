@@ -3,6 +3,8 @@
 " Last Change: 31-Jan-2014.
 " Version: 1.0
 " Usage:
+"
+" Run command :BowerJson() to generate the bower.json markup
 
 function! BowerJson()
   let l:module_name=expand('%:p:h:t')
