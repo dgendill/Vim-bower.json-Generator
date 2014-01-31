@@ -4,7 +4,7 @@
 " Version: 1.0
 " Usage:
 "
-" Run command :BowerJson() to generate the bower.json markup
+" Run command :call BowerJson() to generate the bower.json markup in the current buffer.
 
 function! BowerJson()
   let l:module_name=expand('%:p:h:t')
